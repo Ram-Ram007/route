@@ -120,27 +120,29 @@ button[type="submit"] {
   background-color: grey;
   color: #fff;
   border: none;
-  width: 100px;
-  height: 40px;
+  width: 70px;
+  height:20px;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   cursor: pointer;
   font-size: 16px;
-  margin-left: 15%;
+  margin-left: 5%;
   text-align: center;
+  
+  
 }
 
 .Home {
   background-color: grey;
   color: #fff;
   border: none;
-  width: 100px;
-  height: 40px;
+  width: 70px;
+  height:20px;
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
   font-size: 16px;
-  margin-left: 15%;
+  margin-right: 15%;
   text-align: center;
 }
 nav ul {
