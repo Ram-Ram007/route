@@ -22,6 +22,7 @@ body {
   flex-wrap: wrap;
   width: auto;
   
+  
 }
 .recipe-popup {
   min-width: 600px;
@@ -70,6 +71,7 @@ nav li {
   margin: 10px;
   flex-basis: calc(33.33% - 20px);
   transition: transform 0.2s;
+  margin-left: 50px;
 }
 .recipe-card:hover {
   -ms-transform: scale(1.1); /* IE 9 */
@@ -125,6 +127,7 @@ button[type="submit"] {
   cursor: pointer;
   font-size: 16px;
   margin-left: 15%;
+  text-align: center;
 }
 
 .Home {
@@ -138,6 +141,7 @@ button[type="submit"] {
   cursor: pointer;
   font-size: 16px;
   margin-left: 15%;
+  text-align: center;
 }
 nav ul {
   list-style: none;
