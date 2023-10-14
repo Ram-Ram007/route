@@ -2,14 +2,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("https://img.freepik.com/vetores-premium/padrao-perfeito-de-fast-food-no-estilo-doodle_650511-939.jpg?w=2000"); /* Add your background image URL */
+  /* background-image: url("https://img.freepik.com/vetores-premium/padrao-perfeito-de-fast-food-no-estilo-doodle_650511-939.jpg?w=2000"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
 }
 .form {
   display: flex;
   flex-direction: column;
+  
 }
 .home {
   display: flex;
@@ -19,6 +21,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   width: auto;
+  
 }
 .recipe-popup {
   min-width: 600px;
@@ -29,12 +32,18 @@ body {
   color: #fff;
   border: 1px solid black;
   box-shadow: 10px 10px 20px black;
-  background-color: rgba(29, 28, 34, 0.8);
+  background-color: rgba(162, 159, 176, 0.8);
   padding: 20px;
   border-radius: 10px;
+  margin-left: 250px;
+  
 }
+/* .top-nav{
+  background-color: white;
+} */
 .add-recipe {
   display: grid;
+  
 }
 h1 {
   text-align: center;
@@ -138,7 +147,7 @@ nav ul {
   margin-bottom: 20px;
   gap: 50px;
 }
-.plus {
+.plus{
   background-color: grey;
   color: #fff;
   border: none;
@@ -168,7 +177,7 @@ nav ul {
   margin-top: 10px;
   border-radius: 10px;
   color: white;
-  background-color: black;
+  background-color:rgba(162, 159, 176, 0.8);
 }
 .popup-img {
   width: 300px;
