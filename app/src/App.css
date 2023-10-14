@@ -145,6 +145,12 @@ button[type="submit"] {
   margin-right: 15%;
   text-align: center;
 }
+a {
+  text-decoration: none; 
+  color: inherit;
+  cursor: pointer; 
+}
+
 nav ul {
   list-style: none;
   padding: 0;
