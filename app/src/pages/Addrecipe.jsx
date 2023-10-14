@@ -82,7 +82,7 @@ function AddRecipe({ addRecipe, submitFunc }) {
 
   return (
     <Layout title="addrecipe">
-      <h1>About page</h1>
+      {/* <h1>About page</h1> */}
       <div className="add-recipe">
         <h2>Add Recipe</h2>
         <form onSubmit={handleSubmit}>

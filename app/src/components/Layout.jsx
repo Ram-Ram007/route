@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import Nav from "./nav";
+import Nav from "./Nav";
+
 
 const Layout = (props) => {
   useEffect(() => {
@@ -9,7 +10,7 @@ const Layout = (props) => {
   }, [props.title]);
   return (
     <>
-      <div className="home-form">
+      <div className="app">
         <Nav />
         <>{props.children}</>
       </div>

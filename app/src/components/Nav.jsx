@@ -6,7 +6,7 @@ function Nav() {
     <nav>
       <ul>
         <div className="Add">
-          <Link to="/">home</Link>
+          <Link to="/" >home</Link>
         </div>
         <div className="Home">
           <Link to="/add">add</Link>
